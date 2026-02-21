@@ -1,6 +1,6 @@
 const isNode = typeof process !== 'undefined' && process.versions?.node;
 
-const AppDBClient = (inWorker = false, buffer = [], cachelock = []) => {
+export function AppDBClient(inWorker = false, buffer = [], cachelock = []) {
     if (isNode) inWorker = false;
     buffer = buffer.filter((storeName) => storeName !== 'buffer');
     const thread = 'main';
@@ -923,5 +923,3 @@ const AppDBClient = (inWorker = false, buffer = [], cachelock = []) => {
         deleteItem: deleteItem
     }
 };
-
-export default AppDBClient;
