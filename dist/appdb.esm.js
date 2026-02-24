@@ -924,4 +924,4 @@ function AppDBClient(inWorker = false, buffer = [], cachelock = []) {
 }
 
 export { AppDBClient };
-//# sourceMappingURL=index.esm.js.map
+//# sourceMappingURL=appdb.esm.js.map

@@ -926,4 +926,4 @@ function AppDBClient(inWorker = false, buffer = [], cachelock = []) {
 }
 
 exports.AppDBClient = AppDBClient;
-//# sourceMappingURL=index.cjs.map
+//# sourceMappingURL=appdb.cjs.map

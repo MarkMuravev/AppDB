@@ -932,4 +932,4 @@
     exports.AppDBClient = AppDBClient;
 
 }));
-//# sourceMappingURL=index.umd.js.map
+//# sourceMappingURL=appdb.umd.js.map

@@ -6,18 +6,18 @@ export default [{
     input: 'src/index.js',
     output: [
         {
-            file: 'dist/index.esm.js',
+            file: 'dist/appdb.esm.js',
             format: 'esm',
             sourcemap: true,
         },
         {
-            file: 'dist/index.cjs',
+            file: 'dist/appdb.cjs',
             format: 'cjs',
             sourcemap: true,
             exports: 'named',
         },
         {
-            file: 'dist/index.umd.js',
+            file: 'dist/appdb.umd.js',
             format: 'umd',
             name: 'AppDBClient', // Глобальная переменная в браузере
             sourcemap: true,
@@ -31,6 +31,6 @@ export default [{
     external: [] // внешние зависимости, которые не нужно бандлить 
 }, {
     input: 'src/index.d.ts',
-    output: [{ file: 'dist/index.d.ts', format: 'es' }],
+    output: [{ file: 'dist/appdb.d.ts', format: 'es' }],
     plugins: [dts()],
 }];

@@ -17,16 +17,16 @@ AppDB supports execution in both the **main thread** and **Web Workers**, allowi
 
 ## Installation
 
-Include the `AppDB.js` file in your project:
+Include the `appdb.js` file in your project:
 
 ```html
-<script src="AppDB.js"></script>
+<script src="./dist/appdb.umd.js"></script>
 ```
 
 Or import as a module (depending on your build setup):
 
 ```javascript
-import AppDBClient from './AppDB.js';
+import { AppDBClient } from './dist/appdb.esm.js';
 ```
 
 ## Quick Start
