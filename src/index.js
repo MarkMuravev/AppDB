@@ -1,6 +1,6 @@
 const isNode = typeof process !== 'undefined' && process.versions?.node;
 
-export function AppDBClient(inWorker = false, buffer = [], cachelock = []) {
+export default function (inWorker = false, buffer = [], cachelock = []) {
     if (isNode) inWorker = false;
     buffer = buffer.filter((storeName) => storeName !== 'buffer');
     const thread = 'main';

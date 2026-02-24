@@ -26,7 +26,7 @@ Include the `appdb.js` file in your project:
 Or import as a module (depending on your build setup):
 
 ```javascript
-import { AppDBClient } from './dist/appdb.esm.js';
+import AppDBClient from './dist/appdb.esm.js';
 ```
 
 ## Quick Start
