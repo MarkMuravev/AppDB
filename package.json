@@ -1,11 +1,12 @@
 {
   "name": "appdb",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "AppDB",
   "type": "module",
   "main": "./dist/appdb.cjs",
   "module": "./dist/appdb.esm.js",
   "browser": "./dist/appdb.umd.js",
+  "types": "./dist/appdb.d.ts",
   "exports": {
     ".": {
       "import": "./dist/appdb.esm.js",
